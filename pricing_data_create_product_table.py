@@ -1,5 +1,4 @@
 """Create Pricing Database: Product Table."""
-# Database URL: "C:\Users\blake\blake_clothing_brand.db"
 
 # Imports
 import pandas as pd
@@ -82,7 +81,7 @@ for product_id in range(1, num_rows + 1):
 # Create the dataframe
 df = pd.DataFrame(data)
 
-# Optionally, you can set the data types of the columns
+# set the data types of the columns
 df = df.astype({
     'ProductID': str,
     'ProductName': str,
